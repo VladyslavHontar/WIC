@@ -1,7 +1,7 @@
 import { useLocation, useNavigate, Routes, Route, Navigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AppRoot } from '@telegram-apps/telegram-ui';
-import {ShoppingBag, User, Home, Bell, Settings} from 'lucide-react';
+import {ShoppingBag, User, Home} from 'lucide-react';
 import { MarketPage } from '@/pages/MarketPage/MarketPage';
 import { ProfilePage } from '@/pages/ProfilePage/ProfilePage';
 
