@@ -1,5 +1,6 @@
 // Include Telegram UI styles first to allow our code override the package CSS.
 import '@telegram-apps/telegram-ui/dist/styles.css';
+import '@fontsource/inter'; // full weight/font-face set
 
 import ReactDOM from 'react-dom/client';
 import { StrictMode } from 'react';
@@ -36,5 +37,6 @@ try {
       );
     });
 } catch (e) {
-  root.render(<EnvUnsupported/>);
+    console.error('Initialization error:', e);
+    root.render(<EnvUnsupported />);
 }
