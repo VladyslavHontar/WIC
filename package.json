@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://VladyslavHontar.github.io/WIC",
+  "homepage": "git@github.com:VladyslavHontar/WIC.git",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -19,6 +19,8 @@
     "@telegram-apps/telegram-ui": "^2.1.8",
     "@tonconnect/ui-react": "^2.1.0",
     "eruda": "^3.4.1",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.525.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0"
